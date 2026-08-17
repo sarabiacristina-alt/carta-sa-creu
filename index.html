@@ -321,7 +321,7 @@ Instagram10: <a href="https://instagram.com/sacreu" target="_blank">
   border-radius:999px;
   padding:10px 14px;
   font-weight:800;
-  font-size:14px;
+  font-size:20px;
 }
 
 .menu-section{
@@ -469,7 +469,17 @@ Instagram10: <a href="https://instagram.com/sacreu" target="_blank">
 @media (min-width:760px){
   .items{grid-template-columns:1fr;column-gap:30px}
   .legend-grid{grid-template-columns:repeat(3,1fr)}
+.items{display:grid;grid-template-columns:1fr;gap:0}
 
+.item{
+  display:grid;
+  grid-template-columns:1fr auto;
+  gap:12px;
+  padding:14px 0;
+  border-bottom:1px dashed #ded1bf;
+}
+
+.item:last-child{border-bottom:0}
   .item h4{
     font-size:30px;
     line-height:1.2;
@@ -493,7 +503,17 @@ Instagram10: <a href="https://instagram.com/sacreu" target="_blank">
   .sa-creu-tagline{font-size:14px}
   .alg span{display:none}
   .legend-grid{grid-template-columns:1fr}
+.items{display:grid;grid-template-columns:1fr;gap:0}
 
+.item{
+  display:grid;
+  grid-template-columns:1fr auto;
+  gap:12px;
+  padding:14px 0;
+  border-bottom:1px dashed #ded1bf;
+}
+
+.item:last-child{border-bottom:0}
   .item h4{
     font-size:30px;
     line-height:1.2;
